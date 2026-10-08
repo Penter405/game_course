@@ -2,5 +2,14 @@ prompt to ai:
 design a 大富翁 game that require backend, and if we can uses local net(school PC have no m.2 wifi card, this fail)
 backend would be vercel, but how can we let other players knowing status of server?
 if your 答題進度會跟別的player 的名次有衝突 . we will need low ping server, it is expensive.
+
 feture:
 魔王關卡  難度差異
+
+tips:
+backend function should unber vercel or current backend service limit
+frontend is github page, 
+connect vercel to github,
+maybe we can uses google sheet storage other player's遊玩進度  ,
+and let frontend every one second cheak the google sheet, so the backend function only run once that update status, rather than every computer 
+run backend function to get other player's 遊玩進度
