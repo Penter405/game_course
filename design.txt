@@ -1,6 +1,6 @@
 prompt to ai:
 design a 大富翁 game that require backend, and if we can uses local net(school PC have no m.2 wifi card, this fail)
 backend would be vercel, but how can we let other players knowing status of server?
-
+if your 答題進度會跟別的player 的名次有衝突 . we will need low ping server, it is expensive.
 feture:
 魔王關卡  難度差異
